@@ -1,0 +1,9 @@
+split_method,split_method_en,model,best_val_auc,final_val_loss,final_rmse,final_mae,epochs_trained,total_time_s,time_per_epoch_s,model_size_mb,memory_overhead_mb
+全局随机划分,global_random,ClassicalSVD,0.7639,438.4485,20.9392,14.9863,89,85.9367,0.9656,1.1810,20.5391
+全局随机划分,global_random,FunkSVD,0.7641,459.5298,21.4366,15.1484,96,93.1737,0.9706,1.1810,6.5117
+全局随机划分,global_random,BiasSVD,0.7663,427.0087,20.6642,14.8519,100,94.4604,0.9446,1.2179,1.2109
+全局随机划分,global_random,SVDattr,0.7663,426.3829,20.6490,14.8439,100,79.1672,0.7917,1.2261,1.2773
+按用户划分,user_based,ClassicalSVD,0.7607,465.9608,21.5861,15.8650,100,74.9233,0.7492,1.1810,4.6875
+按用户划分,user_based,FunkSVD,0.7646,473.2162,21.7535,15.8554,99,75.9859,0.7675,1.1810,1.2109
+按用户划分,user_based,BiasSVD,0.7611,458.3711,21.4096,15.8050,100,79.9002,0.7990,1.2179,0.0039
+按用户划分,user_based,SVDattr,0.7632,455.8025,21.3495,15.7673,100,84.1303,0.8413,1.2261,0.3125

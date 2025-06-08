@@ -1,0 +1,3 @@
+split_method,split_method_en,model,model_type,best_val_auc,final_val_loss,final_rmse,final_mae,epochs_trained,total_time_s,time_per_epoch_s,model_size_mb,memory_overhead_mb
+全局随机划分,global_random,NeuralCF,NeuralCF,0.7852,317.5278,17.8193,13.7544,14,21.4175,1.5298,2.4335,32.8867
+按用户划分,user_based,NeuralCF,NeuralCF,0.8037,315.4991,17.7623,13.5291,51,92.1984,1.8078,2.4335,3.9180
